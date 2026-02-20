@@ -1,73 +1,91 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Global Dropshipping | Profesjonalna Obsługa Zamówień</title>
+<title>Global Dropshipping & Fulfillment | International Logistics Partner</title>
 
-<meta name="description" content="Global Dropshipping – kompleksowa realizacja zamówień, obsługa e-commerce, magazynowanie i wysyłka międzynarodowa.">
-<meta name="keywords" content="dropshipping, e-commerce, realizacja zamówień, fulfillment, magazynowanie">
+<meta name="description" content="Global Dropshipping & Fulfillment – International logistics partner for e-commerce brands. Warehousing, order fulfillment and global shipping solutions.">
+<meta name="keywords" content="global fulfillment, dropshipping partner, e-commerce logistics, international shipping, warehouse services">
 <meta name="author" content="Global Dropshipping">
 
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f7fa;
     color: #333;
 }
 
 header {
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: white;
-    padding: 60px 20px;
+    padding: 80px 20px;
     text-align: center;
 }
 
 header h1 {
+    font-size: 44px;
     margin: 0;
-    font-size: 42px;
 }
 
 header p {
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    opacity: 0.9;
 }
 
 section {
-    padding: 50px 20px;
-    max-width: 1000px;
+    padding: 70px 20px;
+    max-width: 1100px;
     margin: auto;
 }
 
 h2 {
     text-align: center;
-    margin-bottom: 30px;
-    color: #1e3c72;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #203a43;
 }
 
-.services {
+.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
 }
 
 .card {
     background: white;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card h3 {
     margin-top: 0;
 }
 
-.contact {
-    background: #1e3c72;
+.highlight {
+    background: #203a43;
     color: white;
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
+}
+
+.highlight h2 {
+    color: white;
+}
+
+.contact {
+    background: #0f2027;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
 }
 
 .contact a {
@@ -77,10 +95,10 @@ h2 {
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background: #0f1f3d;
+    background: #0b161c;
     color: white;
+    text-align: center;
+    padding: 25px;
 }
 </style>
 </head>
@@ -88,40 +106,49 @@ footer {
 <body>
 
 <header>
-    <h1>Global Dropshipping</h1>
-    <p>Profesjonalna realizacja zamówień i obsługa e-commerce na całym świecie</p>
+    <h1>Global Dropshipping & Fulfillment</h1>
+    <p>Your International Logistics & E-commerce Partner</p>
 </header>
 
 <section>
-    <h2>Nasza Oferta</h2>
-    <div class="services">
+    <h2>Our Services</h2>
+    <div class="grid">
         <div class="card">
-            <h3>Realizacja Zamówień</h3>
-            <p>Kompleksowa obsługa zamówień online – od przyjęcia po wysyłkę do klienta.</p>
+            <h3>Order Fulfillment</h3>
+            <p>End-to-end order processing from warehouse to final customer delivery worldwide.</p>
         </div>
         <div class="card">
-            <h3>Magazynowanie</h3>
-            <p>Bezpieczne przechowywanie produktów w nowoczesnych magazynach.</p>
+            <h3>International Shipping</h3>
+            <p>Reliable cross-border logistics solutions for global e-commerce brands.</p>
         </div>
         <div class="card">
-            <h3>Wysyłka Międzynarodowa</h3>
-            <p>Szybka i sprawna wysyłka na rynki europejskie i globalne.</p>
+            <h3>Warehousing Solutions</h3>
+            <p>Secure storage, inventory management and real-time stock monitoring.</p>
         </div>
         <div class="card">
-            <h3>Obsługa E-commerce</h3>
-            <p>Integracja z platformami sprzedażowymi i pełne wsparcie logistyczne.</p>
+            <h3>E-commerce Integration</h3>
+            <p>Integration with Shopify, WooCommerce and major marketplaces.</p>
         </div>
     </div>
 </section>
 
+<section class="highlight">
+    <h2>Why Choose Us</h2>
+    <p>✔ Fast processing times</p>
+    <p>✔ Scalable logistics solutions</p>
+    <p>✔ International experience</p>
+    <p>✔ Dedicated B2B support</p>
+</section>
+
 <section class="contact">
-    <h2>Kontakt</h2>
-    <p>Email: <a href="mailto:kontakt@globaldropshipping.pl">kontakt@globaldropshipping.pl</a></p>
-    <p>Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
+    <h2>Contact Our Team</h2>
+    <p>Email: <a href="mailto:contact@globalfulfillment-group.com">contact@globalfulfillment-group.com</a></p>
+    <p>Phone: <a href="tel:+48123456789">+48 123 456 789</a></p>
+    <p>Location: Europe</p>
 </section>
 
 <footer>
-    © 2026 Global Dropshipping | Wszelkie prawa zastrzeżone
+    © 2026 Global Dropshipping & Fulfillment | International Logistics Group
 </footer>
 
 </body>
