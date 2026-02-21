@@ -1,9 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Elektronika Hurt | Global Dropshipping</title>
+<meta name="description" content="Hurtownia elektroniki B2B. Oferta około 84% ceny detalicznej. MOQ, rabaty ilościowe.">
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
 <nav>
-  <a href="index.html">Start</a>
-  <a href="kategorie/elektronika.html">Elektronika</a>
-  <a href="kategorie/dom-ogrod.html">Dom i Ogród</a>
-  <a href="kategorie/odziez.html">Odzież</a>
-  <a href="wspolpraca.html">Współpraca B2B</a>
-  <a href="jak-zamawiac.html">Jak zamawiać</a>
-  <a href="kontakt.html">Kontakt</a>
+  <a href="../index.html">Start</a>
+  <a href="../wspolpraca.html">Współpraca</a>
+  <a href="../kontakt.html">Kontakt</a>
 </nav>
+
+<h1>Elektronika Hurt B2B</h1>
+
+<p>
+Tutaj wstaw 400–800 słów unikalnego opisu kategorii.
+Opis modeli współpracy, MOQ, logistyki itd.
+</p>
+
+<div class="product"
+     data-category="Elektronika"
+     data-subcategory="Smartfony"
+     data-price="1999"
+     data-moq="10">
+
+  <h3>Smartfon Model X</h3>
+  <p>Cena detaliczna: 1999 zł</p>
+  <p class="wholesale-price"></p>
+  <p>MOQ: <span class="moq"></span> szt.</p>
+
+  <input type="number" class="qty" placeholder="Ilość">
+  <button onclick="generateOffer(this)">Generuj ofertę</button>
+</div>
+
+<script src="../script.js"></script>
+</body>
+</html>
