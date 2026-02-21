@@ -177,16 +177,3 @@ footer {
 
 </body>
 </html>
-<header class="premium-header">
-    <div class="header-inner">
-        <img src="/assets/logo-profesja-premium.png" 
-             alt="Profesja Premium Limited"
-             class="premium-logo">
-        <nav class="main-nav">
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#investors">Investors</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </div>
-</header>
