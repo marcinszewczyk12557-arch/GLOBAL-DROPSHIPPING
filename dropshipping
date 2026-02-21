@@ -1,179 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Global Fulfillment Group | Investment Opportunity</title>
-
-<meta name="description" content="Global Fulfillment Group – scalable international e-commerce logistics platform. Investment opportunity in high-growth fulfillment sector.">
-<meta name="keywords" content="logistics startup, fulfillment investment, e-commerce logistics, scalable logistics platform">
-<meta name="author" content="Global Fulfillment Group">
-
-<style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f4f6f9;
-    color: #222;
-}
-
-header {
-    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-    color: white;
-    padding: 90px 20px;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 46px;
-    margin: 0;
-}
-
-header p {
-    font-size: 20px;
-    margin-top: 15px;
-    opacity: 0.9;
-}
-
-section {
-    padding: 70px 20px;
-    max-width: 1100px;
-    margin: auto;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 30px;
-    color: #203a43;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
-}
-
-.card {
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-}
-
-.highlight {
-    background: #203a43;
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.highlight h2 {
-    color: white;
-}
-
-.cta {
-    background: #0f2027;
-    color: white;
-    text-align: center;
-    padding: 70px 20px;
-}
-
-.cta a {
-    background: #ffd700;
-    padding: 15px 30px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    border-radius: 6px;
-}
-
-footer {
-    background: #0b161c;
-    color: white;
-    text-align: center;
-    padding: 25px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Dropshipping | Nowoczesne Rozwiązania B2B</title>
+    <meta name="description" content="Global Dropshipping – kompleksowa realizacja zamówień zakupowych w modelu B2B. Nowoczesne rozwiązania logistyczne i sprzedażowe.">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-    <h1>Global Fulfillment Group</h1>
-    <p>Building the Next-Generation Scalable E-commerce Logistics Platform</p>
+    <div class="container">
+        <h1>GLOBAL DROPSHIPPING</h1>
+        <nav>
+            <a href="#about">O nas</a>
+            <a href="#services">Usługi</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </div>
 </header>
 
-<section>
-    <h2>Market Opportunity</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>Growing E-commerce Market</h3>
-            <p>Global e-commerce continues double-digit growth, increasing demand for reliable cross-border logistics.</p>
-        </div>
-        <div class="card">
-            <h3>Fragmented Fulfillment Sector</h3>
-            <p>Small and mid-sized brands lack scalable and integrated international fulfillment solutions.</p>
-        </div>
-        <div class="card">
-            <h3>High Margin Logistics Services</h3>
-            <p>Technology-driven fulfillment offers strong recurring revenue and scalable margins.</p>
-        </div>
+<section class="hero">
+    <div class="container">
+        <h2>Nowoczesny model sprzedaży B2B</h2>
+        <p>Kompleksowa obsługa zamówień w modelu dropshippingowym.</p>
+        <a href="#contact" class="btn">Skontaktuj się</a>
     </div>
 </section>
 
-<section class="highlight">
-    <h2>Our Solution</h2>
-    <p>We provide an integrated fulfillment platform combining warehousing, automation, cross-border shipping and e-commerce integration.</p>
-</section>
-
-<section>
-    <h2>Business Model</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>Fulfillment Fees</h3>
-            <p>Per-order processing and handling fees.</p>
-        </div>
-        <div class="card">
-            <h3>Storage Fees</h3>
-            <p>Recurring warehouse storage revenue.</p>
-        </div>
-        <div class="card">
-            <h3>Shipping Margins</h3>
-            <p>Optimized carrier contracts with scalable margin structure.</p>
-        </div>
+<section id="about">
+    <div class="container">
+        <h2>O nas</h2>
+        <p>Specjalizujemy się w pośrednictwie handlowym i realizacji zamówień na rynkach międzynarodowych.</p>
     </div>
 </section>
 
-<section>
-    <h2>Scalability Strategy</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>Automation & Technology</h3>
-            <p>System-driven operations reduce labor cost per order.</p>
-        </div>
-        <div class="card">
-            <h3>International Expansion</h3>
-            <p>Strategic warehouse hubs in Europe and global markets.</p>
-        </div>
-        <div class="card">
-            <h3>B2B Partnerships</h3>
-            <p>Long-term contracts with growing e-commerce brands.</p>
-        </div>
+<section id="services">
+    <div class="container">
+        <h2>Nasze Usługi</h2>
+        <ul>
+            <li>Obsługa zamówień B2B</li>
+            <li>Logistyka międzynarodowa</li>
+            <li>Negocjacje handlowe</li>
+            <li>Import / eksport towarów</li>
+        </ul>
     </div>
 </section>
 
-<section class="cta">
-    <h2>Investment Opportunity</h2>
-    <p>We are seeking strategic investors to accelerate international expansion and technology development.</p>
-    <p>Contact us for investor deck and financial projections.</p>
-    <br>
-    <a href="mailto:investors@globalfulfillment-group.com">Contact Investor Relations</a>
+<section id="contact">
+    <div class="container">
+        <h2>Kontakt</h2>
+        <form>
+            <input type="text" placeholder="Imię i nazwisko" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Wiadomość" required></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
 </section>
 
 <footer>
-    © 2026 Global Fulfillment Group | Confidential Investor Presentation
+    <p>© 2026 Global Dropshipping</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
