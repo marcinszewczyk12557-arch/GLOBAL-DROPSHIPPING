@@ -1,0 +1,41 @@
+global-dropshipping/
+│
+├── index.html                # Strona startowa – niebiesko-białe tło
+├── sitemap.xml               # Mapa strony dla Google
+├── elektronika-uzytkowa.html
+├── bezpieczenstwo.html
+├── maszyny-przemyslowe.html
+├── chemikalia-i-surowce.html
+├── komponenty-elektroniczne.html
+├── narzedzia-i-sprzet.html
+├── prezenty-i-rekodzielo.html
+├── rolnictwo.html
+├── sprzet-i-maszyny-komercyjne.html
+├── odziez-i-akcesoria.html
+├── srodowisko.html
+├── instrumenty-i-sprzet-testowy.html
+├── pojazdy-i-transport.html
+├── bizuteria-okulary-zegarki.html
+├── obuwie-i-akcesoria.html
+├── dom-i-ogrod.html
+├── mama-dzieci-i-zabawki.html
+├── energia-odnawialna.html
+├── uroda.html
+├── sport-i-rozrywka.html
+├── opieka-zdrowotna.html
+├── sprzet-elektryczny-i-AGD.html
+├── sprzet-AGD.html
+├── akcesoria-samochodowe.html
+├── budownictwo-i-nieruchomosci.html
+├── meble.html
+├── oswietlenie.html
+├── maszyny-budowlane.html
+├── artykuly-dla-zwierzat.html
+├── czesci-i-akcesoria-samochodowe.html
+├── uslugi-logistyczne.html
+├── pakowanie-i-drukowanie.html
+├── bagaz-torby-i-walizki.html
+├── metale-i-stopy.html
+├── artykuly-szkolne-i-biurowe.html
+├── uslugi-produkcyjne.html
+└── pielegnacja-i-sprzatanie.html
