@@ -1,36 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Strona główna -->
   <url>
     <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
 
+  <!-- Sekcje strony -->
   <url>
-    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/kategorie/elektronika.html</loc>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#model</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#finansowanie</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#bezpieczenstwo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#kontakt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
+  <!-- Frazy SEO -->
   <url>
-    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/kategorie/dom-ogrod.html</loc>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#nowosci-technologiczne</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
-
   <url>
-    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/kategorie/odziez.html</loc>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#nowosci</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
-
   <url>
-    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/wspolpraca.html</loc>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#promocje</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
-
   <url>
-    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/jak-zamawiac.html</loc>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#kredyt-kupiecki</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/kontakt.html</loc>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#bez-weryfikacji-finansowych</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#sprzet-it</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#sprzet-rtv-agd</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#fotowoltaika</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#maszyny-budowlane</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#pojazdy-elektryczne</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#hulajnogi-rowery</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#sprzet-medyczny</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#elektronarzedzia</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://marcinszewczyk12557-arch.github.io/global-dropshipping/#napoje-zywnosc</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
 </urlset>
-<title>Hurtownia dropshipping 84% ceny detalicznej | Global Dropshipping</title>
-<meta name="description" content="Oferta hurtowa 84% najniższej ceny detalicznej. MOQ, rabaty ilościowe, eksport. Sprawdź kategorie produktów.">
-<meta name="robots" content="index, follow">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
