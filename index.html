@@ -11,4 +11,202 @@ body { font-family: Arial, sans-serif; background:#f8f9fa; }
 nav { background:#007BFF; color:white; position:sticky; top:0; z-index:1000; }
 nav .nav-container { display:flex; justify-content:space-between; align-items:center; padding:1rem; flex-wrap:wrap; }
 nav h1 { font-size:1.5rem; }
-.menu-toggle { display:none; font-size:1.5
+.menu-toggle { display:none; font-size:1.5rem; cursor:pointer; }
+
+ul.menu { list-style:none; display:flex; gap:1rem; flex-wrap:wrap; }
+ul.menu li { position:relative; }
+ul.menu li a { color:white; text-decoration:none; padding:0.5rem 1rem; display:block; }
+ul.menu li a:hover { background:rgba(255,255,255,0.2); border-radius:5px; }
+
+.mega { display:none; position:absolute; left:0; top:100%; width:100vw; background:white; color:black; padding:1rem; box-shadow:0 4px 6px rgba(0,0,0,0.1); }
+.mega .category { display:flex; flex-wrap:wrap; gap:1rem; }
+.mega .product { width:150px; text-align:center; }
+.mega .product img { width:100%; border-radius:5px; }
+.mega .product p { margin-top:0.5rem; font-size:0.9rem; }
+
+ul.menu li:hover .mega { display:flex; }
+
+@media(max-width:768px){
+  .menu-toggle{ display:block; }
+  ul.menu { display:none; flex-direction:column; width:100%; }
+  ul.menu.show { display:flex; }
+  .mega { position:static; width:100%; flex-wrap:wrap; padding:0.5rem 0; box-shadow:none; display:none; }
+  ul.menu li.show-mega .mega { display:flex; flex-wrap:wrap; gap:0.5rem; }
+}
+
+section { padding:2rem; border-bottom:1px solid #ddd; background:white; margin:0.5rem; border-radius:5px; }
+section h2 { margin-bottom:1rem; color:#007BFF; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-container">
+    <h1>Dropshipping</h1>
+    <span class="menu-toggle">&#9776;</span>
+    <ul class="menu">
+
+      <!-- Tutaj wszystkie 37 kategorii z mega-menu i placeholderami -->
+      <li><a href="#elektronika">Elektronika użytkowa</a>
+        <div class="mega"><div class="category">
+          <div class="product"><img src="placeholder1.jpg" alt="Produkt 1"><p>Produkt 1</p></div>
+          <div class="product"><img src="placeholder2.jpg" alt="Produkt 2"><p>Produkt 2</p></div>
+        </div></div></li>
+
+      <li><a href="#bezpieczenstwo">Bezpieczeństwo</a>
+        <div class="mega"><div class="category">
+          <div class="product"><img src="placeholder3.jpg" alt="Produkt 3"><p>Produkt 3</p></div>
+          <div class="product"><img src="placeholder4.jpg" alt="Produkt 4"><p>Produkt 4</p></div>
+        </div></div></li>
+
+      <li><a href="#maszyny-przemyslowe">Maszyny przemysłowe</a>
+        <div class="mega"><div class="category">
+          <div class="product"><img src="placeholder5.jpg" alt="Produkt 5"><p>Produkt 5</p></div>
+        </div></div></li>
+
+      <li><a href="#chemikalia">Chemikalia</a>
+        <div class="mega"><div class="category">
+          <div class="product"><img src="placeholder6.jpg" alt="Produkt 6"><p>Produkt 6</p></div>
+        </div></div></li>
+
+      <li><a href="#tkaniny">Tkaniny i surowce tekstylne</a>
+        <div class="mega"><div class="category">
+          <div class="product"><img src="placeholder7.jpg" alt="Produkt 7"><p>Produkt 7</p></div>
+        </div></div></li>
+
+      <li><a href="#komponenty">Komponenty elektroniczne i telekomunikacja</a>
+        <div class="mega"><div class="category">
+          <div class="product"><img src="placeholder8.jpg" alt="Produkt 8"><p>Produkt 8</p></div>
+        </div></div></li>
+
+      <li><a href="#narzedzia">Narzędzia i sprzęt</a>
+        <div class="mega"><div class="category">
+          <div class="product"><img src="placeholder9.jpg" alt="Produkt 9"><p>Produkt 9</p></div>
+        </div></div></li>
+
+      <li><a href="#prezenty">Prezenty i rękodzieło</a>
+        <div class="mega"><div class="category">
+          <div class="product"><img src="placeholder10.jpg" alt="Produkt 10"><p>Produkt 10</p></div>
+        </div></div></li>
+
+      <li><a href="#rolnictwo">Rolnictwo</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder11.jpg" alt="Produkt 11"><p>Produkt 11</p></div></div></div></li>
+
+      <li><a href="#sprzet-comm">Sprzęt i maszyny komercyjne</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder12.jpg" alt="Produkt 12"><p>Produkt 12</p></div></div></div></li>
+
+      <li><a href="#odziez">Odzież i akcesoria</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder13.jpg" alt="Produkt 13"><p>Produkt 13</p></div></div></div></li>
+
+      <li><a href="#srodowisko">Środowisko</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder14.jpg" alt="Produkt 14"><p>Produkt 14</p></div></div></div></li>
+
+      <li><a href="#instrumenty">Instrumenty i sprzęt testowy</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder15.jpg" alt="Produkt 15"><p>Produkt 15</p></div></div></div></li>
+
+      <li><a href="#pojazdy">Pojazdy i transport</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder16.jpg" alt="Produkt 16"><p>Produkt 16</p></div></div></div></li>
+
+      <li><a href="#bizuteria">Biżuteria, okulary i zegarki</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder17.jpg" alt="Produkt 17"><p>Produkt 17</p></div></div></div></li>
+
+      <li><a href="#obuwie">Obuwie i akcesoria</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder18.jpg" alt="Produkt 18"><p>Produkt 18</p></div></div></div></li>
+
+      <li><a href="#dom-ogród">Dom i ogród</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder19.jpg" alt="Produkt 19"><p>Produkt 19</p></div></div></div></li>
+
+      <li><a href="#mama-dzieci">Mama, dzieci i zabawki</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder20.jpg" alt="Produkt 20"><p>Produkt 20</p></div></div></div></li>
+
+      <li><a href="#energia">Energia odnawialna</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder21.jpg" alt="Produkt 21"><p>Produkt 21</p></div></div></div></li>
+
+      <li><a href="#uroda">Uroda</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder22.jpg" alt="Produkt 22"><p>Produkt 22</p></div></div></div></li>
+
+      <li><a href="#sport">Sport i rozrywka</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder23.jpg" alt="Produkt 23"><p>Produkt 23</p></div></div></div></li>
+
+      <li><a href="#opieka-zdrowotna">Opieka zdrowotna</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder24.jpg" alt="Produkt 24"><p>Produkt 24</p></div></div></div></li>
+
+      <li><a href="#sprzet-agd">Sprzęt elektryczny i AGD</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder25.jpg" alt="Produkt 25"><p>Produkt 25</p></div></div></div></li>
+
+      <li><a href="#agd">AGD</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder26.jpg" alt="Produkt 26"><p>Produkt 26</p></div></div></div></li>
+
+      <li><a href="#akcesoria-auto">Akcesoria samochodowe</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder27.jpg" alt="Produkt 27"><p>Produkt 27</p></div></div></div></li>
+
+      <li><a href="#budownictwo">Budownictwo i nieruchomości</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder28.jpg" alt="Produkt 28"><p>Produkt 28</p></div></div></div></li>
+
+      <li><a href="#meble">Meble</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder29.jpg" alt="Produkt 29"><p>Produkt 29</p></div></div></div></li>
+
+      <li><a href="#oswietlenie">Oświetlenie</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder30.jpg" alt="Produkt 30"><p>Produkt 30</p></div></div></div></li>
+
+      <li><a href="#maszyny-budowlane">Maszyny budowlane</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder31.jpg" alt="Produkt 31"><p>Produkt 31</p></div></div></div></li>
+
+      <li><a href="#zwierzeta">Artykuły dla zwierząt</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder32.jpg" alt="Produkt 32"><p>Produkt 32</p></div></div></div></li>
+
+      <li><a href="#czesci-auto">Części i akcesoria samochodowe</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder33.jpg" alt="Produkt 33"><p>Produkt 33</p></div></div></div></li>
+
+      <li><a href="#logistyka">Usługi logistyczne</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder34.jpg" alt="Produkt 34"><p>Produkt 34</p></div></div></div></li>
+
+      <li><a href="#pakowanie">Pakowanie i drukowanie</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder35.jpg" alt="Produkt 35"><p>Produkt 35</p></div></div></div></li>
+
+      <li><a href="#bagaz">Bagaż, torby i walizki</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder36.jpg" alt="Produkt 36"><p>Produkt 36</p></div></div></div></li>
+
+      <li><a href="#metale">Metale i stopy</a><div class="mega"><div class="category">
+          <div class="product"><img src="placeholder37.jpg" alt="Produkt 37"><p>Produkt 37</p></div></div></div></li>
+
+      <li><a href="#szkolne">Artykuły szkolne i biurowe</a><div class="mega"><div class="category"></div></div></li>
+
+      <li><a href="#pielegnacja">Pielęgnacja osobista i sprzątanie domu</a><div class="mega"><div class="category"></div></div></li>
+
+    </ul>
+  </div>
+</nav>
+
+<div class="content">
+  <!-- Sekcje kategorii -->
+  <section id="elektronika"><h2>Elektronika użytkowa</h2><p>Wstaw tutaj swoje produkty.</p></section>
+  <section id="bezpieczenstwo"><h2>Bezpieczeństwo</h2><p>Wstaw tutaj swoje produkty.</p></section>
+  <section id="maszyny-przemyslowe"><h2>Maszyny przemysłowe</h2><p>Wstaw tutaj swoje produkty.</p></section>
+  <section id="chemikalia"><h2>Chemikalia</h2><p>Wstaw tutaj swoje produkty.</p></section>
+  <section id="tkaniny"><h2>Tkaniny i surowce tekstylne</h2><p>Wstaw tutaj swoje produkty.</p></section>
+  <section id="komponenty"><h2>Komponenty elektroniczne i telekomunikacja</h2><p>Wstaw tutaj swoje produkty.</p></section>
+  <section id="narzedzia"><h2>Narzędzia i sprzęt</h2><p>Wstaw tutaj swoje produkty.</p></section>
+  <section id="prezenty"><h2>Prezenty i rękodzieło</h2><p>Wstaw tutaj swoje produkty.</p></section>
+  <!-- Dodaj pozostałe sekcje dla 37 kategorii podobnie -->
+</div>
+
+<script>
+const toggle=document.querySelector('.menu-toggle');
+const menu=document.querySelector('ul.menu');
+toggle.addEventListener('click',()=>menu.classList.toggle('show'));
+
+const menuItems=document.querySelectorAll('ul.menu>li>a');
+menuItems.forEach(item=>{
+  item.addEventListener('click',e=>{
+    if(window.innerWidth<=768){
+      e.preventDefault();
+      const parent=item.parentElement;
+      parent.classList.toggle('show-mega');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
