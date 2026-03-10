@@ -1,0 +1,30 @@
+<h2>Panel klienta B2B</h2>
+
+<input id="product" placeholder="Produkt">
+<input id="price" placeholder="Cena">
+
+<button onclick="order()">Zamów</button>
+
+<script>
+
+async function order(){
+
+let res=await fetch("/order",{
+
+method:"POST",
+headers:{"Content-Type":"application/json"},
+body:JSON.stringify({
+
+user:"client",
+product:product.value,
+price:price.value
+
+})
+
+})
+
+alert("Zamówienie wysłane")
+
+}
+
+</script>
