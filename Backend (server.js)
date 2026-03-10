@@ -1,0 +1,46 @@
+const express = require("express")
+const sqlite3 = require("sqlite3").verbose()
+const bodyParser = require("body-parser")
+
+const app = express()
+app.use(bodyParser.json())
+app.use(express.static("public"))
+
+const db = new sqlite3.Database("database.db")
+
+db.run(`
+CREATE TABLE IF NOT EXISTS orders(
+id INTEGER PRIMARY KEY,
+user TEXT,
+product TEXT,
+price REAL,
+status TEXT
+)
+`)
+
+app.post("/order",(req,res)=>{
+
+const {user,product,price}=req.body
+
+db.run(
+"INSERT INTO orders(user,product,price,status) VALUES(?,?,?,?)",
+[user,product,price,"pending"]
+)
+
+res.json({success:true})
+
+})
+
+app.get("/orders",(req,res)=>{
+
+db.all("SELECT * FROM orders",(err,rows)=>{
+res.json(rows)
+})
+
+})
+
+app.listen(3000,()=>{
+
+console.log("Server działa na porcie 3000")
+
+})
